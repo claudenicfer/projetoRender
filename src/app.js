@@ -6,7 +6,7 @@ const cors = require('cors')
 const app = express()
 
 
-app.use(cors())
+// app.use(cors())
 
 // configurando o servidor para receber requisições com o corpo no formato JSON
 app.use(express.json())
